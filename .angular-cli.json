@@ -19,7 +19,8 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/snazzy-info-window/dist/snazzy-info-window.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
@@ -54,6 +55,9 @@
     }
   },
   "defaults": {
+    "serve":{
+      "port": 4200
+    },
     "styleExt": "css",
     "component": {}
   }
